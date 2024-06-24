@@ -14,5 +14,7 @@
 # limitations under the License.
 # ******************************************************************************
 # flake8: noqa
+import sys
+sys.path.append('/home/rjtomich/photonic_compiler/inference_pratice/my_nlp_architect')
 from nlp_architect.models.transformers.sequence_classification import TransformerSequenceClassifier
 from nlp_architect.models.transformers.token_classification import TransformerTokenClassifier
